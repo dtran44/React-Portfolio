@@ -1,7 +1,6 @@
-import { Text, Box, Stack, rem } from '@mantine/core';
-import { IconSun, IconPhone, IconMapPin, IconAt } from '@tabler/icons-react';
+import { Text, Box, Stack, rem, Anchor } from '@mantine/core';
+import { IconPhone, IconBrandGithub,IconAt } from '@tabler/icons-react';
 import classes from './ContactIcons.module.css';
-
 
 
 function ContactIcon({ icon: Icon, title, description, ...others }) {
@@ -21,14 +20,14 @@ function ContactIcon({ icon: Icon, title, description, ...others }) {
   );
 }
 
-const MOCKDATA = [
-  { title: 'Email', description: 'hello@mantine.dev', icon: IconAt },
-  { title: 'Phone', description: '+49 (800) 335 35 35', icon: IconPhone },
-  { title: 'Address', description: '844 Morris Park avenue', icon: IconMapPin },
-  { title: 'Working hours', description: '8 a.m. – 11 p.m.', icon: IconSun },
+const DATA = [
+  { title: 'Email', description: 'diana.tran44@gmail.com', icon: IconAt },
+  { title: 'Phone', description: '+61 432 457 379', icon: IconPhone },
+  { title: 'GitHub', description: <Anchor href="https://github.com/dtran44" target="_blank">
+  Link</Anchor>, icon: IconBrandGithub},
 ];
 
 export function ContactIconsList() {
-  const items = MOCKDATA.map((item, index) => <ContactIcon key={index} {...item} />);
+  const items = DATA.map((item, index) => <ContactIcon key={index} {...item} />);
   return <Stack>{items}</Stack>;
 }

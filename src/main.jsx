@@ -8,10 +8,10 @@ import '@mantine/core/styles.css';
 
 import App from './App';
 import Error from './pages/Error';
-import { Contact } from './pages/Contact.jsx';
 import { Resume } from './pages/Resume/Resume.jsx';
 import { AboutMe } from './pages/AboutMe/AboutMe';
 import { Portfolio } from './pages/Portfolio/Portfolio.jsx';
+import { Contact } from './pages/Contact/Contact.jsx';
 
 
 // Define the accessible routes, and which components respond to which URL
@@ -35,7 +35,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/contact',
-        element: <Contact />,
+        element: <Contact/>,
       },
     ],
   },
