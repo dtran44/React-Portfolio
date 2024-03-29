@@ -26,7 +26,7 @@ GitHub Link: https://github.com/dtran44/React-Portfolio
 Deployed link: https://resplendent-melba-95fa4d.netlify.app/
 
 Screenshot: 
-![alt text]([assets/images/Diana Tran_Professional Portfolio screenshot.jpg)(https://github.com/dtran44/Professional-Portfolio/blob/main/assets/images/Diana%20Tran_Professional%20Portfolio%20screenshot.jpg)
+![alt text](https://github.com/dtran44/React-Portfolio/blob/main/src/assets/React%20portfolio%20screenshot.jpg)
 
 ## License
 
