@@ -16,7 +16,6 @@ export function AboutMe() {
             <Avatar
                 component="a"
                 href="https://github.com/rtivital"
-                target="_blank"
                 src="avatar.png"
                 alt="it's me"
               />
